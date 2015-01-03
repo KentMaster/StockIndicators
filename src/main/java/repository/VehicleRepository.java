@@ -1,6 +1,6 @@
 package repository;
 
-import model.Vehicle;
+import com.zhou.model.Vehicle;
 
 import java.util.List;
 

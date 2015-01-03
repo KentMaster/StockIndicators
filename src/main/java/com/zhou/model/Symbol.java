@@ -1,4 +1,4 @@
-package model;
+package com.zhou.model;
 
 public class Symbol {
     private Symbol(String symbol) {

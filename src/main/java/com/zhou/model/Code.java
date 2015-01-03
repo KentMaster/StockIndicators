@@ -1,4 +1,4 @@
-package model;
+package com.zhou.model;
 
 public class Code {
     private Code(String code) {

@@ -1,12 +1,9 @@
-package model;
+package com.zhou.model;
 
 import org.springframework.data.annotation.Id;
 
 import java.math.BigInteger;
 
-/**
- * Created by li on 12/21/14.
- */
 public class StockInfo {
     //Date	Open	High	Low	Close	Volume	Adj Close
 
@@ -16,14 +13,16 @@ public class StockInfo {
     private double open;
     private double high;
     private double low;
+    private double close;
     private BigInteger volume;
     private double adjustedClose;
 
-    public StockInfo(String date, double open, double high, double low, BigInteger volume, double adjustedClose) {
+    public StockInfo(String date, double open, double high, double low, double close, BigInteger volume, double adjustedClose) {
         this.date = date;
         this.open = open;
         this.high = high;
         this.low = low;
+        this.close = close;
         this.volume = volume;
         this.adjustedClose = adjustedClose;
     }
@@ -66,6 +65,14 @@ public class StockInfo {
 
     public void setLow(double low) {
         this.low = low;
+    }
+
+    public double getClose() {
+        return close;
+    }
+
+    public void setClose(double close) {
+        this.close = close;
     }
 
     public BigInteger getVolume() {

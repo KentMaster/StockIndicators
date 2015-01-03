@@ -1,9 +1,6 @@
-package model;
-
-import org.springframework.data.annotation.Id;
+package com.zhou.model;
 
 import java.math.BigInteger;
-import java.util.Date;
 
 public class Stock {
 

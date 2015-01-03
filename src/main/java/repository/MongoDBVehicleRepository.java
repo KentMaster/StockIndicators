@@ -2,7 +2,7 @@ package repository;
 
 import static org.springframework.data.mongodb.core.query.Criteria.*;
 import com.mongodb.*;
-import model.Vehicle;
+import com.zhou.model.Vehicle;
 import org.springframework.dao.DataAccessException;
 import org.springframework.data.mongodb.core.DbCallback;
 import org.springframework.data.mongodb.core.MongoTemplate;
